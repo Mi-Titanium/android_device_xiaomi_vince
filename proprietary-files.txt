@@ -321,8 +321,8 @@ vendor/lib/libmmcamera_vince_ov5675_qtech_eeprom.so
 # Consumer IR
 vendor/lib64/hw/consumerir.default.so
 
-# Fingerprint HIDL - from daisy-user 10 QKQ1.191002.002 V11.0.18.0.QDLMIXM release-keys
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|866b83e0dce24cd3dd7d8a6ef6fec5bd02de499f
+# Fingerprint
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|a074aa25cbb5e7aab9d2b8cabea56992632ab685
 
 # Fingerprint (FPC)
