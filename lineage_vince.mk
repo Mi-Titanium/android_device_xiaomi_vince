@@ -27,7 +27,6 @@ TARGET_VENDOR := Xiaomi
 # titanium_64
 BUILD_USERNAME := renzalt
 BUILD_HOSTNAME := titanium
-TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
