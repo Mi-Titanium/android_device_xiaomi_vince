@@ -7,6 +7,9 @@
 # Inherit from mititanium-common
 $(call inherit-product, device/xiaomi/mititanium-common/msm8953.mk)
 
+# Display
+TARGET_USES_Q_DISPLAY_STACK := true
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
