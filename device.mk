@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from msm8953-common
-$(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
+# Inherit from mititanium-common
+$(call inherit-product, device/xiaomi/mititanium-common/msm8953.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \

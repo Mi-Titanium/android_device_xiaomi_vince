@@ -24,9 +24,9 @@ PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
-# dib
-BUILD_USERNAME := android-build
-BUILD_HOSTNAME := dib-server
+# titanium_64
+BUILD_USERNAME := renzalt
+BUILD_HOSTNAME := titanium
 TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
