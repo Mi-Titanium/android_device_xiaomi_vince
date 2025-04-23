@@ -16,6 +16,7 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_SUPPORT_HAL1 := false
 
 # Kernel
+TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_CONFIG := vince_defconfig
 
 # Filesystem
