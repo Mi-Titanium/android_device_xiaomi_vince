@@ -12,9 +12,6 @@ DEVICE_PATH := device/xiaomi/vince
 # Display
 TARGET_SCREEN_DENSITY := 440
 
-# Camera
-TARGET_SUPPORT_HAL1 := false
-
 # Kernel
 TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_CONFIG := vince_defconfig
