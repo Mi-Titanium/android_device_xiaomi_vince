@@ -15,6 +15,19 @@ function blob_fixup() {
             # NOP gf_hal_test_notify_acquired_info()
             "${SIGSCAN}" -p "10 03 00 d0 11 52 46 f9" -P "10 03 00 d0 1f 20 03 d5" -f "${2}"
             ;;
+        vendor/lib/libchromaflash.so)
+            ;&
+        vendor/lib/libseemore.so)
+            ;&
+        vendor/lib/liboptizoom.so)
+            ;&
+        vendor/lib/libubifocus.so)
+            :&
+        vendor/lib/libts_detected_face_hal.so)
+            ;&
+        vendor/lib/libts_face_beautify_hal.so)
+            "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
+            ;;
     esac
 }
 
