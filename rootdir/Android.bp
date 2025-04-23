@@ -1,0 +1,18 @@
+//
+// Copyright (C) 2024 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "fstab.qcom",
+    src: "etc/fstab.qcom",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.vince.rc",
+    src: "etc/init.vince.rc",
+    sub_dir: "init",
+    vendor: true,
+}
