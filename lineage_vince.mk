@@ -23,10 +23,9 @@ PRODUCT_NAME := lineage_vince
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi
-TARGET_VENDOR := Xiaomi
 
 # titanium_64
-BUILD_USERNAME := renzalt
+BUILD_USERNAME := RenzAlt
 BUILD_HOSTNAME := titanium
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
