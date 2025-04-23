@@ -12,7 +12,7 @@ vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
 
 # Audio firmware
-etc/firmware/tas2557_uCDSP.bin:vendor/firmware/tas2557_uCDSP.bin
+system/etc/firmware/tas2557_uCDSP.bin:vendor/firmware/tas2557_uCDSP.bin
 
 # Camera
 lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
@@ -322,7 +322,7 @@ vendor/lib/libmmcamera_vince_ov5675_qtech_eeprom.so
 vendor/lib64/hw/consumerir.default.so
 
 # Fingerprint (Goodix)
-etc/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin
+system/etc/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin
 
 # Fingerprint (Goodix HAL) - from daisy-user 10 QKQ1.191002.002 V11.0.18.0.QDLMIXM release-keys
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.default.so
@@ -346,4 +346,4 @@ vendor/lib64/hw/keystore.msm8953.so
 vendor/etc/sensors/sensor_def_qcomdev.conf
 
 # Touchscreen firmware
-etc/firmware/novatek_ts_fw.bin:vendor/firmware/novatek_ts_fw.bin
+system/etc/firmware/novatek_ts_fw.bin:vendor/firmware/novatek_ts_fw.bin
