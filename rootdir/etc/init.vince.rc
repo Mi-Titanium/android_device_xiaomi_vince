@@ -12,3 +12,7 @@ on boot
     chmod 0660 /sys/devices/platform/soc/soc:fpc1020/wakeup_enable
     chown system system /sys/devices/platform/soc/soc:fpc1020/fingerdown_wait
     chmod 0660 /sys/devices/platform/soc/soc:fpc1020/fingerdown_wait
+
+on post-fs-data
+     mkdir /data/vendor/goodix 0770 system system
+     mkdir /data/vendor/fpc 0770 system system
