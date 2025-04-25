@@ -9,13 +9,13 @@ fi
 
 # Clone proprietary if not exists
 if [ ! -d "vendor/xiaomi/vince" ]; then
-    git clone --depth=1 https://github.com/Mi-Titanium/android_vendor_xiaomi_vince vendor/xiaomi/vince
+    git clone --depth=1 https://github.com/Mi-Titanium/android_vendor_xiaomi_vince -b 15 vendor/xiaomi/vince
 else
     echo "vendor/xiaomi/vince already exists, skipping clone"
 fi
 
 if [ ! -d "vendor/xiaomi/mititanium-common" ]; then
-    git clone --depth=1 https://github.com/Mi-Titanium/proprietary_vendor_xiaomi_mititanium-common vendor/xiaomi/mititanium-common
+    git clone --depth=1 https://github.com/Mi-Titanium/proprietary_vendor_xiaomi_mititanium-common -b 15 vendor/xiaomi/mititanium-common
 else
     echo "vendor/xiaomi/mititanium-common already exists, skipping clone"
 fi
